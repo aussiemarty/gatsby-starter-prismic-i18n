@@ -1,12 +1,12 @@
 const website = require('./website')
 
 module.exports = {
-  'de-de': {
+  'en-au': {
     default: true,
-    path: 'de',
-    locale: 'de-de',
-    siteLanguage: 'de',
-    ogLang: 'de_DE',
+    path: 'en',
+    locale: 'en-au',
+    siteLanguage: 'en',
+    ogLang: 'en_AU',
     defaultTitle: website.title,
     defaultTitleAlt: website.titleAlt,
     defaultDescription: 'Basierend auf gatsby-starter-prismic mit Unterstützung für Lokalisierung (i18n)',
@@ -21,11 +21,11 @@ module.exports = {
     allCategories: 'Alle Kategorien',
     entries: 'Einträge',
   },
-  'en-gb': {
-    path: 'en',
-    locale: 'en-gb',
-    siteLanguage: 'en',
-    ogLang: 'en_US',
+  'zh-cn': {
+    path: 'zh',
+    locale: 'zh-cn',
+    siteLanguage: 'zh',
+    ogLang: 'zh-CN',
     defaultTitle: website.title,
     defaultTitleAlt: website.titleAlt,
     defaultDescription: website.description,
